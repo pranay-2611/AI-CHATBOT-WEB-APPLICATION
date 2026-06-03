@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = "AQ.Ab8RN6LTuajlQLU65er_R-XSWooGXmBwITcF6VRCwoExeb0F6A"
+api_key = "OPEN_API_KEY"
 genai.configure(api_key=api_key)
 
 st.set_page_config(
